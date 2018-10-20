@@ -1,42 +1,23 @@
-# Numerous always-ignore extensions
-*.bak
-*.patch
-*.diff
-*.err
-*.idea
-# temp file for git conflict merging
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
-*.sass-cache
-*.tmp.html
-*.dump
-
-# OS or Editor folders
 .DS_Store
-._*
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-*.sublime-project
-*.sublime-workspace
-nbproject
-thumbs.db
-*.iml
+node_modules
+/dist
+**/node_modules
+**/debug.log
+**/.tea
+# local env files
+.env.local
+.env.*.local
 
-# Folders to ignore
-.hg
-.svn
-.CVS
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
 .idea
-node_modules/
-jscoverage_lib/
-bower_components/
-dist/
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
